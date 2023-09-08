@@ -36,5 +36,5 @@ setInterval(() => {
 
 setInterval(() => {
     const milliseconds = Date.now();
-    timeInMS.textContent = 'Time in milliseconds :' + ' ' + milliseconds
+    timeInMS.textContent = milliseconds
 }, 1)
