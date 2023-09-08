@@ -64,6 +64,7 @@ main {
   padding: 5px;
   line-height: 1;
   transform: translateX(-1rem);
+  cursor: pointer;
 }
 
 .day_Time {
