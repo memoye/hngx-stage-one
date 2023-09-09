@@ -75,11 +75,28 @@ main {
   margin: auto;
   font-size: 400;
   min-height: 5rem;
+  background: black;
+  color: white;
+}
+
+.day {
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .day_Time * {
   margin: 10px;
   line-height: 1;
+}
+
+.day_Time:hover .day {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.422),
+    black,
+    rgba(255, 255, 255, 0.392)
+  );
 }
 
 .track {
